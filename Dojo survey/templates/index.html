@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dojo survey index</title>
+</head>
+<body>
+	<form action='/result' method='post'>
+		<label>Your name:</label>
+		<input type="text" name="name">
+		<label>Dojo location</label>
+		<select name='location'>
+			<option value='dallas'>dallas</option>
+			<option value='san jose'>san jose</option>
+		</select>
+		<label>favorite language</label>
+		<select name='language'>
+			<option value='python'>python</option>
+			<option value='html'>HTML</option>
+		</select>
+		<label>Comment (optional):</label>
+		<input type="textarea" name="comment">
+		<input type="submit" name="submit">
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number game</title>
+</head>
+<body>
+	<h1>Welcome to the Great Number Game!</h1>
+	<h2>Guess a number between 1 - 100</h2>
+	<form action='/guess', method='post'>
+		<p>{{session['result']}}</p>
+		<input type="text" name="guess">
+		<button type='submit'>Big Money!</button>
+	</form>
+</body>
+</html>
